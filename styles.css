@@ -1,0 +1,45 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background: green;
+    margin: 10px 20px;
+    position:relative;
+}
+
+.b1 {
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.b2 {
+    width: 50px;
+    height: 50px;
+    background: rgb(13, 0, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    background: rgb(128, 0, 43);
+    margin: 10px 20px;
+    position:relative;
+}
+
+.relative {
+    position: relative;
+}
+
+/* -------- Pseudo class --------*/
+
+li:nth-child(3){
+    background: rgba(98, 8, 98, 0.067);
+}
